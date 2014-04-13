@@ -1,0 +1,10 @@
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\bin\SocketUtil.dll
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\bin\SocketUtil.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\obj\Debug\SocketUtil.dll
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\obj\Debug\SocketUtil.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\obj\Debug\SocketUtil.csprojResolveAssemblyReference.cache
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\bin\SocketUtil.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\bin\SocketUtil.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\obj\Debug\SocketUtil.csprojResolveAssemblyReference.cache
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\obj\Debug\SocketUtil.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\obj\Debug\SocketUtil.pdb

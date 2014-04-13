@@ -1,0 +1,4 @@
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestProvider\bin\ServiceTestProvider.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestProvider\bin\ServiceTestProvider.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestProvider\obj\Debug\ServiceTestProvider.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestProvider\obj\Debug\ServiceTestProvider.pdb

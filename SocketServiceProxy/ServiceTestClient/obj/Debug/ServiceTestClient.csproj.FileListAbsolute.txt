@@ -1,0 +1,9 @@
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\obj\Debug\ServiceTestClient.csprojResolveAssemblyReference.cache
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\bin\Debug\ServiceTestClient.exe
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\bin\Debug\ServiceTestClient.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\bin\Debug\ServiceProxyImpl.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\bin\Debug\SocketCore.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\bin\Debug\SocketCore.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\bin\Debug\ServiceProxyImpl.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\obj\Debug\ServiceTestClient.exe
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceTestClient\obj\Debug\ServiceTestClient.pdb

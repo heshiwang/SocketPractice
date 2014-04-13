@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocketCore", "SocketCore", "{FD8D82C7-4559-4845-9F0C-6B5CEFCD4B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocketServiceProxy", "SocketServiceProxy", "{2F3DBA27-89D2-46F0-BB66-C57BEB3D24D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketCore", "SocketCore\SocketCore.csproj", "{0707F3F6-B87E-417D-94F1-40BF37244830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceProxyImpl", "SocketServiceProxy\ServiceProxyImpl\ServiceProxyImpl.csproj", "{055CAE62-532A-4ACF-874A-9D27014BFBE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTestProvider", "SocketServiceProxy\ServiceTestProvider\ServiceTestProvider.csproj", "{194FD28A-17C1-4640-97F3-410FC4BE806B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTestClient", "SocketServiceProxy\ServiceTestClient\ServiceTestClient.csproj", "{94496242-AA1D-42B1-8AF3-35F26E6FCB18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0707F3F6-B87E-417D-94F1-40BF37244830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0707F3F6-B87E-417D-94F1-40BF37244830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0707F3F6-B87E-417D-94F1-40BF37244830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0707F3F6-B87E-417D-94F1-40BF37244830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055CAE62-532A-4ACF-874A-9D27014BFBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055CAE62-532A-4ACF-874A-9D27014BFBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055CAE62-532A-4ACF-874A-9D27014BFBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055CAE62-532A-4ACF-874A-9D27014BFBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194FD28A-17C1-4640-97F3-410FC4BE806B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194FD28A-17C1-4640-97F3-410FC4BE806B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194FD28A-17C1-4640-97F3-410FC4BE806B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194FD28A-17C1-4640-97F3-410FC4BE806B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94496242-AA1D-42B1-8AF3-35F26E6FCB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94496242-AA1D-42B1-8AF3-35F26E6FCB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94496242-AA1D-42B1-8AF3-35F26E6FCB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94496242-AA1D-42B1-8AF3-35F26E6FCB18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0707F3F6-B87E-417D-94F1-40BF37244830} = {FD8D82C7-4559-4845-9F0C-6B5CEFCD4B95}
+		{055CAE62-532A-4ACF-874A-9D27014BFBE5} = {2F3DBA27-89D2-46F0-BB66-C57BEB3D24D1}
+		{194FD28A-17C1-4640-97F3-410FC4BE806B} = {2F3DBA27-89D2-46F0-BB66-C57BEB3D24D1}
+		{94496242-AA1D-42B1-8AF3-35F26E6FCB18} = {2F3DBA27-89D2-46F0-BB66-C57BEB3D24D1}
+	EndGlobalSection
+EndGlobal

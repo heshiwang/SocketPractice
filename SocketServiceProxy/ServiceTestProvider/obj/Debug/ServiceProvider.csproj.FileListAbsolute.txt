@@ -1,0 +1,5 @@
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\ServiceProvider\bin\ServiceProvider.dll
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\ServiceProvider\bin\ServiceProvider.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\ServiceProvider\obj\Debug\ServiceProvider.dll
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\ServiceProvider\obj\Debug\ServiceProvider.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\ServiceProvider\obj\Debug\ServiceProvider.csprojResolveAssemblyReference.cache

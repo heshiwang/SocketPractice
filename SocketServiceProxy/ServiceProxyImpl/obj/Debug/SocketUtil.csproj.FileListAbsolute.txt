@@ -1,0 +1,5 @@
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\bin\SocketUtil.dll
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\bin\SocketUtil.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\obj\Debug\SocketUtil.dll
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\obj\Debug\SocketUtil.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxy\obj\Debug\SocketUtil.csprojResolveAssemblyReference.cache

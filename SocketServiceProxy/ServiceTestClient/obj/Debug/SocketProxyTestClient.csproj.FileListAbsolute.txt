@@ -1,0 +1,7 @@
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxyTestClient\bin\Debug\SocketProxyTestClient.exe
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxyTestClient\bin\Debug\SocketProxyTestClient.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxyTestClient\obj\Debug\SocketProxyTestClient.csprojResolveAssemblyReference.cache
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxyTestClient\obj\Debug\SocketProxyTestClient.exe
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxyTestClient\obj\Debug\SocketProxyTestClient.pdb
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxyTestClient\bin\Debug\SocketUtil.dll
+G:\技术积累报告\博客文章\Socket\代码\SocketProxy\SocketProxyTestClient\bin\Debug\SocketUtil.pdb
