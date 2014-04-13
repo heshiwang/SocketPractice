@@ -1,0 +1,9 @@
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\bin\Debug\SocketMessageRouteTest.exe
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\bin\Debug\SocketMessageRouteTest.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\bin\Debug\SocketMessageRoute.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\bin\Debug\SocketCore.dll
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\bin\Debug\SocketMessageRoute.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\bin\Debug\SocketCore.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\obj\Debug\SocketMessageRouteTest.csprojResolveAssemblyReference.cache
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\obj\Debug\SocketMessageRouteTest.exe
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SokcetMessageRoute\SocketMessageRouteTest\obj\Debug\SocketMessageRouteTest.pdb

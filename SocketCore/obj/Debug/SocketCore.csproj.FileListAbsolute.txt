@@ -2,3 +2,4 @@ C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\bin\SocketCore.dll
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\bin\SocketCore.pdb
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\obj\Debug\SocketCore.dll
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\obj\Debug\SocketCore.pdb
+C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketCore\obj\Debug\SocketCore.csprojResolveAssemblyReference.cache

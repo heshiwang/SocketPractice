@@ -1,7 +1,5 @@
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceProxyImpl\bin\ServiceProxyImpl.dll
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceProxyImpl\bin\ServiceProxyImpl.pdb
-C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceProxyImpl\bin\SocketCore.dll
-C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceProxyImpl\bin\SocketCore.pdb
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceProxyImpl\obj\Debug\ServiceProxyImpl.csprojResolveAssemblyReference.cache
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceProxyImpl\obj\Debug\ServiceProxyImpl.dll
 C:\Users\ISSAC\Documents\GitHub\SocketPractice\SocketServiceProxy\ServiceProxyImpl\obj\Debug\ServiceProxyImpl.pdb

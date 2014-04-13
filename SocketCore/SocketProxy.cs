@@ -12,7 +12,6 @@ namespace SocketCore
 {
     public class SocketProxy
     {
-        public const int BUFFER_SIZE = 1024;
         public readonly static Encoding DefaultEncoding = Encoding.UTF8;
 
         public Uri ServiceUri { get; private set; }
@@ -37,57 +36,31 @@ namespace SocketCore
         /// <returns></returns>
         public string Send(string message)
         {
-            Socket socket = GetSocket();
-            try
+            Socket socket = SocketUtil.Connect(ServiceUri.Host, ServiceUri.Port);
+            if (socket != null)
             {
-                byte[] messageByte = MessageEncoding.GetBytes(message);
-                socket.Send(messageByte);
-
-                SocketMessagePackageCollection messagePackageList = new SocketMessagePackageCollection();
-                byte[] receiveBuffer = new byte[BUFFER_SIZE];
-                while (true)
+                try
                 {
-                    int realReceiveLength = socket.Receive(receiveBuffer);
-                    messagePackageList.AddPackage(new SocketMessagePackage(DateTime.Now, receiveBuffer, realReceiveLength));
-                    if (socket.Available == 0 || realReceiveLength < receiveBuffer.Length)
-                    {
-                        break;
-                    }
-                }
-                byte[] recieveMessage = messagePackageList.GetMessageBytes().ToArray();
-                return MessageEncoding.GetString(recieveMessage);
+                    byte[] messageByte = MessageEncoding.GetBytes(message);
+                    socket.Send(messageByte);
+                    byte[] recieveMessage = SocketUtil.Receive(socket);
+                    return MessageEncoding.GetString(recieveMessage);
 
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(string.Format("同步发送报文出现异常:{0}", ex.Message));
+                    throw;
+                }
+                finally
+                {
+                    socket.Close();
+                }
             }
-            catch (Exception ex)
+            else
             {
-                Debug.WriteLine(string.Format("同步发送报文出现异常:{0}", ex.Message));
-                throw;
-            }
-            finally
-            {
-                socket.Close();
+                throw new Exception(string.Format("无法为地址{0}建立Socket连接", ServiceUri.ToString()));
             }
         }
-
-        private Socket GetSocket()
-        {
-            IPHostEntry iphe = Dns.GetHostEntry(ServiceUri.Host);
-            IPAddress[] addList = iphe.AddressList;
-            foreach (IPAddress address in iphe.AddressList)
-            {
-                IPEndPoint ipe = new IPEndPoint(address, ServiceUri.Port);
-                Socket tempSocket = new Socket(ipe.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-                tempSocket.Connect(ipe);
-                if (tempSocket.Connected)
-                {
-                    return tempSocket;
-                }
-                else
-                {
-                    continue;
-                }
-            }
-            throw new Exception(string.Format("无法为地址{0}建立Socket连接", ServiceUri.ToString()));
-        } 
     }
 }

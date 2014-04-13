@@ -69,12 +69,6 @@
     <Compile Include="Soap1_2WSMessageGenerator.cs" />
     <Compile Include="WCFRequestData.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SocketCore\SocketCore.csproj">
-      <Project>{0707f3f6-b87e-417d-94f1-40bf37244830}</Project>
-      <Name>SocketCore %28SocketCore\SocketCore%29</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

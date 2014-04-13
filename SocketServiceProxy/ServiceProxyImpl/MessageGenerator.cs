@@ -42,7 +42,7 @@ namespace ServiceProxyImpl
         protected virtual string GenerateRequestHeadMessage(TRequestData requestData, string bodyMessage)
         {
             return MessageHeadTemplate.Replace("$url", requestData.ServiceUri.AbsolutePath)
-                                      .Replace("$host", string.Format("{0}:{1}", requestData.ServiceUri.Host, requestData.ServiceUri.Port))
+                                      .Replace("$host", requestData.ServiceUri.Host)
                                       .Replace("$method", requestData.MethodName)
                                       .Replace("$length", MessageEncoding.GetByteCount(bodyMessage).ToString());
         }

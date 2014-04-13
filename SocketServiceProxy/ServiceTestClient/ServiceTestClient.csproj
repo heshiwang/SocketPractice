@@ -47,7 +47,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\SocketCore\SocketCore.csproj">
       <Project>{0707f3f6-b87e-417d-94f1-40bf37244830}</Project>
-      <Name>SocketCore %28SocketCore\SocketCore%29</Name>
+      <Name>SocketCore</Name>
     </ProjectReference>
     <ProjectReference Include="..\ServiceProxyImpl\ServiceProxyImpl.csproj">
       <Project>{055cae62-532a-4acf-874a-9d27014bfbe5}</Project>
